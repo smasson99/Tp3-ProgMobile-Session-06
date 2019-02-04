@@ -13,10 +13,14 @@ class Learn extends StatelessWidget {
       children: List.generate(Hiraganas.length, (index) {
         return Card(
           child: Column(children: <Widget>[
-            Center(
-              child: Text(
-                Hiraganas.keys.elementAt(index),
-                textScaleFactor: 6,
+            Expanded(
+              child:FittedBox(
+                fit: BoxFit.contain,
+                child: Center(
+                  child: Text(
+                    Hiraganas.keys.elementAt(index),
+                  ),
+                ),
               ),
             ),
             Center(
