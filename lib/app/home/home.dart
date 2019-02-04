@@ -27,8 +27,8 @@ class _HomeState extends State<Home>{
         ),
         bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.book), title:  Text('Apprendre')),
-          BottomNavigationBarItem(icon: Icon(Icons.create), title:  Text('Entrainement')),
+          BottomNavigationBarItem(icon: Icon(Icons.book), title:  Text(strings.learn)),
+          BottomNavigationBarItem(icon: Icon(Icons.create), title:  Text(strings.train)),
         ],
           currentIndex: _selectedIndex,
           onTap:  _onItemTapped,
