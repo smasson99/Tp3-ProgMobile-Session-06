@@ -14,7 +14,7 @@ class Learn extends StatelessWidget {
         return Card(
           child: Column(children: <Widget>[
             Expanded(
-              child:FittedBox(
+              child: FittedBox(
                 fit: BoxFit.contain,
                 child: Center(
                   child: Text(
