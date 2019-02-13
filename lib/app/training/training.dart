@@ -1,16 +1,7 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'trainingLetterBox.dart';
 import 'package:tp3/app/hiragana/hiragana.dart';
-
-/*
-*  Le mode « Entrainement » doit montrer une lettre (sans la réponse)
-*  et une liste de choix.
-*
-*   Lors de la sélection d’un choix incorrect, ce dernier doit être désactivé et devenir rouge.
-*   Enfin, utilisez « FitedBox » pour agrandir du texte selon la taille de l’écran.
-* */
 
 class Training extends StatefulWidget {
   @override
