@@ -11,7 +11,7 @@ class Training extends StatefulWidget {
 }
 
 class _TrainingState extends State<Training> {
-  final int numberOfAnswers = 3;
+  final int numberOfAnswers = 3; //BEN_CORRECTION : Ce n'est pas une constante au yeux du langage. De plus, ce n'est pas le bon type de nommage.
 
   List<String> _answers;
   List<bool> _buttonsStatus;
